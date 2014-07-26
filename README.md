@@ -15,7 +15,8 @@
 * express
 * MongoDB
 * Mongoose
-* nginx
+* Nginx
 * grunt-cli
 * Ruby
 * rbenv
+* Typescript
