@@ -20,3 +20,5 @@
 * Ruby
 * rbenv
 * Typescript
+* Sass
+* Compass
