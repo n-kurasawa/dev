@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.hostname = "guest"
 
   # Vagrantボックス情報
-  # ボックスがローカル環境に無ければuはじめにurlからインストールする
+  # ボックスがローカル環境に無ければはじめにurlからインストールする
   config.vm.box = "opscode-centos-6.5"
   config.vm.box_url = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box"
 
