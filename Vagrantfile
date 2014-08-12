@@ -31,7 +31,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         version: '0.10.26'
       },
       npm: {
-        version: '1.3.5'
+        version: '1.4.23'
       },
       mongodb: {
         version: '2.6.3'

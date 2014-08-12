@@ -57,7 +57,7 @@ execute "rbenv global #{node['ruby-env']['version']}" do
   environment 'HOME' => "/home/#{node['ruby-env']['user']}"
 end
 
-%w{rbenv-rehash bundler}.each do |g|
+%w{rbenv-rehash bundler sass compass}.each do |g|
   execute "gem install #{g}" do
     command "/home/#{node['ruby-env']['user']}/.rbenv/shims/gem install #{g}"
     user node['ruby-env']['user']
